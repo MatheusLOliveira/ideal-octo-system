@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         String[] promotionalFruits = {"Pera", "Laranja", "Maçã", "Tomate", "Caqui"};
@@ -17,19 +17,23 @@ public class Main {
         System.out.printf("O valor total da compra é de R$ %.2f", shooping(promotionalFruits, quantityFruits));
     }
 
+
     public static double shooping(String[] fruits ,int[] quantityFruits) {
+        int promotionalQuantity = 11;
+        double promotionalPrice = 1.25;
+        double regularPrice = 1.45;
+
         double shopping = 0;
 
         for (int quantityFruit : quantityFruits) {
             if (quantityFruit < 0) {
                 System.out.println("Valor deve ser positivo");
-            } else if (quantityFruit <= 10) {
-                shopping += 1.45 * quantityFruit;
+            } else if (quantityFruit < promotionalQuantity) {
+                shopping += regularPrice * quantityFruit;
             } else {
-                shopping += 1.25 * quantityFruit;
+                shopping += promotionalPrice * quantityFruit;
             }
         }
-
         return shopping;
     }
 }

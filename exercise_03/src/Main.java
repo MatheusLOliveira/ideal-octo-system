@@ -6,41 +6,41 @@ public class Main {
         int[] ascendingOrder = sortAscendingOrder(numbers);
         int[] descendingOrder = sortDescendingOrder(numbers);
 
-        System.out.println(Arrays.toString(numbers));
-        System.out.println(Arrays.toString(ascendingOrder));
-        System.out.println(Arrays.toString(descendingOrder));
+        System.out.println("Array orginal: " + Arrays.toString(numbers));
+        System.out.println("Array ordenado em ordem crescente: " + Arrays.toString(descendingOrder));
+        System.out.println("Array ordenado em ordem decrescente: " + Arrays.toString(ascendingOrder));
     }
 
-    private static int[] sortDescendingOrder(int[] numbers) {
-        int [] ascendingOrder = new int[numbers.length];
-        int lowestNumber = 0;
 
-        for (int number : numbers) {
-            int count = 0;
-            for (int i : numbers) {
-                lowestNumber = number;
-                if (lowestNumber < i) {
-                    count++;
+    public static void swap(int[] numbers, int i, int j) {
+        int aux = numbers[i];
+        numbers[i] = numbers[j];
+        numbers[j] = aux;
+    }
+
+
+    private static int[] sortAscendingOrder(int[] numbers) {
+        int [] ascendingOrder = numbers.clone();
+
+        for (int i = 0; i < ascendingOrder.length; i++) {
+            for (int j = 0; j < ascendingOrder.length - 1 - i; j++) {
+                if (ascendingOrder[j] > ascendingOrder[j + 1]) {
+                    swap(ascendingOrder, j, j+1);
                 }
             }
-            ascendingOrder[count] = lowestNumber;
         }
         return ascendingOrder;
     }
 
-    private static int[] sortAscendingOrder(int[] numbers) {
-        int [] ascendingOrder = new int[numbers.length];
-        int higherNumber = 0;
+    private static int[] sortDescendingOrder(int[] numbers) {
+        int [] ascendingOrder = numbers.clone();
 
-        for (int number : numbers) {
-            int count = 0;
-            for (int i : numbers) {
-                higherNumber = number;
-                if (higherNumber > i) {
-                    count++;
+        for (int i = 0; i < ascendingOrder.length; i++) {
+            for (int j = 0; j < ascendingOrder.length - 1 - i; j++) {
+                if (ascendingOrder[j] < ascendingOrder[j + 1]) {
+                    swap(ascendingOrder, j, j+1);
                 }
             }
-            ascendingOrder[count] = higherNumber;
         }
         return ascendingOrder;
     }
