@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e3effd-04b3-46d1-babf-af18db0e86b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_01/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_01/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_01/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_01/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_01/ada-exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise_01/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/santander-coders-ada.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_01/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_01/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_01/ada-exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_01/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_02/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_02/exercise_02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_02/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_03/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_03/exercise_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise_03/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +37,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
       <RecentBranches>
@@ -53,6 +67,14 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="07615eaa-2f43-4f0f-972f-260edbcf1a42" />
+        <option name="url" value="https://github.com/MatheusLOliveira/ideal-octo-system.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -66,7 +88,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/math/ws/ada/Curso/Module1/santander-coders-ada/exercise_01",
+    "last_opened_file_path": "/home/math/ws/ada/Curso/Module1/santander-coders-ada/class_03",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,6 +96,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="santander-coders-ada" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="santander-coders-ada" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,6 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689211492249</updated>
       <workItem from="1689211493297" duration="721000" />
+      <workItem from="1689638738791" duration="29000" />
+      <workItem from="1689638776002" duration="210000" />
     </task>
     <servers />
   </component>
