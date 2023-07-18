@@ -1,5 +1,3 @@
-package class03;
-
 public class EX0303 {
     public static double calculoSalario( double[] input) {
         double tempoServico = input[0];

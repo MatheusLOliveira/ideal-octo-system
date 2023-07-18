@@ -1,5 +1,3 @@
-package class03;
-
 public class EX0305 {
     public static boolean elementosRepetidos(double[] input) {
 

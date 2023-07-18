@@ -1,5 +1,3 @@
-package class03;
-
 public class EX0306 {
 
     public static double triangleArea(double a, double b, double c) {

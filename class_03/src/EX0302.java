@@ -1,5 +1,3 @@
-package class03;
-
 public class EX0302 {
     public static double[] custosCarro(double[] input) {
 

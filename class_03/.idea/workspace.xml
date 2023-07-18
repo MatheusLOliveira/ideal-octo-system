@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a10faeaf-cdeb-4ad3-a7ff-7433456617e3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/ada-exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/exercise_01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_01/exercise_01/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_02/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_02/exercise_02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_02/exercise_021.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_02/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_03/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_03/exercise_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../class_02/exercise_03/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX0301.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX0302.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX0303.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX0304.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX0305.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EX0306.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/class_03.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Sit65TNzPQUXKSnKDArIKOGFcP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/math/ws/ada/Curso/Module1/santander-coders-ada/class_03",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EX0306" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EX0306" />
+      <module name="class_03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EX0306" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a10faeaf-cdeb-4ad3-a7ff-7433456617e3" name="Changes" comment="" />
+      <created>1689641051884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689641051884</updated>
+      <workItem from="1689641052989" duration="94000" />
+      <workItem from="1689641289101" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

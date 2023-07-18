@@ -1,5 +1,3 @@
-package class03;
-
 public class EX0301 {
     public static double custoCompra(double input) {
 

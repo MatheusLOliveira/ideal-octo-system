@@ -1,5 +1,3 @@
-package class03;
-
 public class EX0304 {
     public static int primeiroCaractereUnico(String input) {
         char[] words = input.toCharArray();

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class EX0202 {
     public static void main(String[] args) {
         int[] numbers = {5, 4, 1, 2, 3};
         int[] ascendingOrder = sortAscendingOrder(numbers);
