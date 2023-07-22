@@ -12,6 +12,7 @@ public class Ex0501 {
         for (int i = 0; i < promotionalFruits.length; i++) {
             System.out.printf("Quantidade de %s: ", promotionalFruits[i]);
             quantityFruits[i] = sc.nextInt();
+            if (quantityFruits[i] < 0) throw new InvalidNumberException("The number must be positive");
         }
 
         System.out.printf("O valor total da compra é de R$ %.2f", shooping(promotionalFruits, quantityFruits));
@@ -27,9 +28,7 @@ public class Ex0501 {
         allZero(quantityFruits);
 
         for (int quantityFruit : quantityFruits) {
-            if (quantityFruit < 0) {
-                throw new InvalidNumberException("The number must be positive");
-            } else if (quantityFruit < promotionalQuantity) {
+            if (quantityFruit < promotionalQuantity) {
                 shopping += regularPrice * quantityFruit;
             } else {
                 shopping += promotionalPrice * quantityFruit;
