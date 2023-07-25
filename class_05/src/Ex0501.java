@@ -9,6 +9,7 @@ public class Ex0501 {
         int[] quantityFruits = new int[promotionalFruits.length];
 
         System.out.println("Digite a quantidade desejada de cada fruta:");
+        
         for (int i = 0; i < promotionalFruits.length; i++) {
             System.out.printf("Quantidade de %s: ", promotionalFruits[i]);
             quantityFruits[i] = sc.nextInt();

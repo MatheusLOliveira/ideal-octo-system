@@ -5,7 +5,8 @@ public class InvalidNumberException extends RuntimeException{
     }
 
     public InvalidNumberException(String e) {
-        super(e);
+
+        super("etestes");
     }
 
 }
