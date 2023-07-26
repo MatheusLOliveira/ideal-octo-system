@@ -27,10 +27,10 @@ public enum DaysOfWeek {
 
     public static DaysOfWeek nameEnum(String name) {
         for(DaysOfWeek day : values()) {
-            if(day.getName().equals(name)) {
+            if(day.getName().equalsIgnoreCase(name)) {
                 return day;
             }
         }
-        return null;
+        throw new NotAValidDayException("Not a valid day");
     }
 }
