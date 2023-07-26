@@ -1,6 +1,6 @@
 package Ex0701;
 
-public class Ex0603 {
+public class Ex0701 {
 
     public static void main(String[] args) {
         String[] days = {
