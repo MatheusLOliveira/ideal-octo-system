@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05e3effd-04b3-46d1-babf-af18db0e86b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/class_03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/class_03/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="05e3effd-04b3-46d1-babf-af18db0e86b1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +64,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/math/ws/ada/Curso/Module1/santander-coders-ada/class_04",
+    "last_opened_file_path": "/home/math/ws/ada/Curso/Module1/santander-coders-ada",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,6 +101,7 @@
       <workItem from="1689638776002" duration="210000" />
       <workItem from="1689640663377" duration="389000" />
       <workItem from="1689806044318" duration="107000" />
+      <workItem from="1691016332760" duration="181000" />
     </task>
     <servers />
   </component>
