@@ -68,7 +68,7 @@ public class Plate {
         DecimalFormat df = new DecimalFormat("0.00");
         return "Plate: \n" +
                 "Name = " + name + '\n' +
-                "Price = " + df.format(price) +
+                "Price = " + df.format(price) + '\n' +
                 "Description = " + description + '\n';
     }
 }

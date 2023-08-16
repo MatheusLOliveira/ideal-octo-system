@@ -42,6 +42,10 @@ public class Restaurant {
         this.address = address;
     }
 
+    public Plate getPlate(int option) {
+        return platesAvaiable.get(option);
+    }
+
     public ArrayList<Plate> getPlatesAvaiable() {
         return platesAvaiable;
     }
@@ -65,9 +69,20 @@ public class Restaurant {
 
     @Override
     public String toString() {
+        boolean thereIsPlate = true;
+        if (this.platesAvaiable.toArray().length == 0) { thereIsPlate = false; }
+
+        if (thereIsPlate) {
+            return "Restaurant: \n" +
+                    "Restaurant's id: " + identificator + '\n' +
+                    "Restaurant's name ='" + name + '\n' +
+                    "Address = " + address + '\n' +
+                    "Plates = " + platesAvaiable + '\n';
+        }
         return "Restaurant: \n" +
-                "Restaurant's name ='" + name + '\n' +
+                "Restaurant's id: " + identificator + '\n' +
+                "Restaurant's name = " + name + '\n' +
                 "Address = " + address + '\n' +
-                "Plates = " + platesAvaiable + '\n';
+                "Plates = There's no plate register";
     }
 }

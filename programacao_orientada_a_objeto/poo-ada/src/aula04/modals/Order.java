@@ -9,13 +9,15 @@ public class Order  {
     private Integer numberOrder;
     private Client client;
     private Restaurant restaurant;
+    private String addressToDelivey;
     private ArrayList<Plate> plates;
 
-    public Order(Client client, Restaurant restaurant) {
+    public Order(Client client, Restaurant restaurant, String addressToDelivey, ArrayList<Plate> plates) {
         this.numberOrder = lastNumberOrder++;
         this.client = client;
         this.restaurant = restaurant;
-        this.plates = new ArrayList<Plate>();
+        this.addressToDelivey = addressToDelivey;
+        this.plates = plates;
     }
 
     public Integer getNumberOrder() {
@@ -40,6 +42,14 @@ public class Order  {
 
     public void setRestaurant(Restaurant restaurant) {
         this.restaurant = restaurant;
+    }
+
+    public String getAddressToDelivey() {
+        return addressToDelivey;
+    }
+
+    public void setAddressToDelivey(String addressToDelivey) {
+        this.addressToDelivey = addressToDelivey;
     }
 
     public ArrayList<Plate> getPlates() {

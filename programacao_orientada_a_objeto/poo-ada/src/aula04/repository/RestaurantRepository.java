@@ -14,7 +14,7 @@ public class RestaurantRepository {
         this.restaurantsData = new ArrayList<Restaurant>();
     }
 
-    public void addRestaurant(String name, String address, ArrayList<Plate> platesAvaiable) {
+    public void addRestaurant(String name, String address) {
         restaurantsData.add(new Restaurant(name, address));
     }
 

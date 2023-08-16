@@ -11,11 +11,15 @@ public class ClientRepository {
 
     private ArrayList<Client> clientsData;
 
-    private void addClient(String name){
+    public ClientRepository() {
+        this.clientsData = new ArrayList<Client>();
+    }
+
+    public void addClient(String name){
         clientsData.add(new Client(name));
     }
 
-    private void addClient(Client client){
+    public void addClient(Client client){
         clientsData.add(client);
     }
 
