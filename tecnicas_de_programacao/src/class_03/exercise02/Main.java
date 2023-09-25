@@ -2,7 +2,7 @@ package class_03.exercise02;
 
 import java.util.function.BiFunction;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -14,10 +14,10 @@ public class main {
         Integer n1 = 8;
         Integer n2 = 2;
 
-        System.out.println("Sum: " + Calculadora.executar(n1, n2, sum));
-        System.out.println("Subtraction: " + Calculadora.executar(n1, n2, subtraction));
-        System.out.println("Multiplication: " + Calculadora.executar(n1, n2, multiplication));
-        System.out.println("Division: " + Calculadora.executar(n1, n2, division));
+        System.out.println("Sum: " + Calculator.executar(n1, n2, sum));
+        System.out.println("Subtraction: " + Calculator.executar(n1, n2, subtraction));
+        System.out.println("Multiplication: " + Calculator.executar(n1, n2, multiplication));
+        System.out.println("Division: " + Calculator.executar(n1, n2, division));
     }
 
 }
